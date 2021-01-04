@@ -28,35 +28,37 @@ nav {
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
   padding: 20px;
-  background-image: url('gradient1.png');
   color: Black
+  background-color: Black
+  /*background-image: url('gradient1.png');*/
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
+  background-color: Black
   padding: 0;
 }
 
 article {
   float: left;
   padding: 20px;
-  background-image: url('gradient2.png');
+  /*background-image: url('gradient2.png');*/
   height: 300px; /* only for demonstration, should be removed */
   color: Black
 }
 
 /* Clear floats after the columns */
-/*section::after {
-  content: "AAAAAAA";
+section::after {
+  content: "";
   display: table;
   clear: both;
-}*/
+}
 
 /* Style the footer */
 footer {
-  background-image: url('gradient1.png');
-  padding: 10px;
+  background-image: url('gradient2.png');
+  padding: 40px;
   text-align: center;
 }
 
