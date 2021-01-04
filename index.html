@@ -15,11 +15,11 @@ body {
 
 /* Style the header */
 header {
-  background-color: #b564e0;
+  background-image: url('gradient2.png');
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: green;
+  color: Black;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -28,6 +28,8 @@ nav {
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
   padding: 20px;
+  background-image: url('gradient1.png');
+  color: Black
 }
 
 /* Style the list inside the menu */
@@ -41,14 +43,15 @@ article {
   padding: 20px;
   background-image: url('gradient2.png');
   height: 300px; /* only for demonstration, should be removed */
+  color: Black
 }
 
 /* Clear floats after the columns */
-section::after {
+/*section::after {
   content: "AAAAAAA";
   display: table;
   clear: both;
-}
+}*/
 
 /* Style the footer */
 footer {
@@ -60,7 +63,7 @@ footer {
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
-    width: 100%;
+    width: 130%;
     height: auto;
   }
 }
